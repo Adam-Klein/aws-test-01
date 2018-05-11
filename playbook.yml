@@ -1,0 +1,11 @@
+---
+
+
+tasks:
+
+  - ec2:
+    key_name: mykey
+    instance_type: t2.micro
+    image: ami-976152f2
+    wait: yes
+    assign_public_ip: true
